@@ -12,4 +12,9 @@
     <Project Path="Encapsulation/SecretFamilyRecipe/SecretFamilyRecipe.csproj" />
     <Project Path="Encapsulation/SodFarm/SodFarm.csproj" />
   </Folder>
+  <Folder Name="/Inheritance/">
+    <Project Path="Inheritance/Appliance/Appliance.csproj" />
+    <Project Path="Inheritance/Button/Button.csproj" />
+    <Project Path="Inheritance/Employee/Employee.csproj" />
+  </Folder>
 </Solution>
