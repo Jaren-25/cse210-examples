@@ -140,6 +140,16 @@
             "args": [],
             "cwd": "${workspaceFolder}/Polymorphism/OrganStopPizza",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "Polymorphism: OrganStopPizzaImproved",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-OrganStopPizzaImproved",
+            "program": "${workspaceFolder}/Polymorphism/OrganStopPizzaImproved/bin/Debug/net10.0/OrganStopPizzaImproved.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Polymorphism/OrganStopPizzaImproved",
+            "console": "integratedTerminal"
         }
     ]
 }

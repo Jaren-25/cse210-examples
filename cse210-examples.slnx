@@ -20,5 +20,6 @@
   </Folder>
   <Folder Name="/Polymorphism/">
     <Project Path="Polymorphism/OrganStopPizza/OrganStopPizza.csproj" />
+    <Project Path="Polymorphism/OrganStopPizzaImproved/OrganStopPizzaImproved.csproj" />
   </Folder>
 </Solution>
