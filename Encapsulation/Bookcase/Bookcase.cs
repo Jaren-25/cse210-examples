@@ -45,12 +45,17 @@ public class Bookcase
         Console.WriteLine($"We have {_books.Count} books");
     }
 
+    private int CompareBooksByPopularity(Book x, Book y)
+    {
+        return y.TimesRead().CompareTo(x.TimesRead());
+    }
+
     public void ShowPopularBooks(int topN)
     {
         topN = Math.Min(topN,_books.Count);
         Console.WriteLine($"Showing the top {topN} popular books");
         int shown = 0;
-        _books.Sort((x, y) => y.TimesRead().CompareTo(x.TimesRead()));
+        _books.Sort(CompareBooksByPopularity);
         foreach (Book book in _books)
         {
             if(shown < topN)

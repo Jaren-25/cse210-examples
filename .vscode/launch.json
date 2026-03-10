@@ -1,0 +1,145 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Abstraction: CarAlarm",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-CarAlarm",
+            "program": "${workspaceFolder}/Abstraction/CarAlarm/bin/Debug/net10.0/CarAlarm.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Abstraction/CarAlarm",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Abstraction: CircuitBoard",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-CircuitBoard",
+            "program": "${workspaceFolder}/Abstraction/CircuitBoard/bin/Debug/net10.0/CircuitBoard.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Abstraction/CircuitBoard",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Abstraction: SodFarm",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-Abstraction-SodFarm",
+            "program": "${workspaceFolder}/Abstraction/SodFarm/bin/Debug/net10.0/SodFarm.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Abstraction/SodFarm",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Encapsulation: Bookcase",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-Bookcase",
+            "program": "${workspaceFolder}/Encapsulation/Bookcase/bin/Debug/net10.0/Bookcase.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Encapsulation/Bookcase",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Encapsulation: ContractV1",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-ContractV1",
+            "program": "${workspaceFolder}/Encapsulation/ContractV1/bin/Debug/net10.0/ContractV1.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Encapsulation/ContractV1",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Encapsulation: ContractV2",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-ContractV2",
+            "program": "${workspaceFolder}/Encapsulation/ContractV2/bin/Debug/net10.0/ContractV2.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Encapsulation/ContractV2",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Encapsulation: QuoteBoard",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-QuoteBoard",
+            "program": "${workspaceFolder}/Encapsulation/QuoteBoard/bin/Debug/net10.0/QuoteBoard.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Encapsulation/QuoteBoard",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Encapsulation: SecretFamilyRecipe",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-SecretFamilyRecipe",
+            "program": "${workspaceFolder}/Encapsulation/SecretFamilyRecipe/bin/Debug/net10.0/SecretFamilyRecipe.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Encapsulation/SecretFamilyRecipe",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Encapsulation: SodFarm",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-Encapsulation-SodFarm",
+            "program": "${workspaceFolder}/Encapsulation/SodFarm/bin/Debug/net10.0/SodFarm.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Encapsulation/SodFarm",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Inheritance: Appliance",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-Appliance",
+            "program": "${workspaceFolder}/Inheritance/Appliance/bin/Debug/net10.0/Appliance.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Inheritance/Appliance",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Inheritance: Button",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-Button",
+            "program": "${workspaceFolder}/Inheritance/Button/bin/Debug/net10.0/Button.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Inheritance/Button",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Inheritance: Employee",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-Employee",
+            "program": "${workspaceFolder}/Inheritance/Employee/bin/Debug/net10.0/Employee.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Inheritance/Employee",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Inheritance: Person",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-Person",
+            "program": "${workspaceFolder}/Inheritance/Person/bin/Debug/net10.0/Person.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Inheritance/Person",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Polymorphism: OrganStopPizza",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-OrganStopPizza",
+            "program": "${workspaceFolder}/Polymorphism/OrganStopPizza/bin/Debug/net10.0/OrganStopPizza.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Polymorphism/OrganStopPizza",
+            "console": "integratedTerminal"
+        }
+    ]
+}

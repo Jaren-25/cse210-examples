@@ -5,7 +5,7 @@ public class Board{
     private void NicePrint(string item)
     {
         Console.WriteLine("-------------------------------------------");
-        Console.WriteLine($"{item}");
+        Console.WriteLine(item);
         Console.WriteLine("-------------------------------------------");
     }
 
@@ -23,8 +23,8 @@ public class Board{
     
     public void GetRandomQuote()
     {
-        var random = new Random();
-        var rNum = random.Next(0, _quotes.Count);
+        Random random = new Random();
+        int rNum = random.Next(0, _quotes.Count);
         NicePrint(_quotes[rNum].GetQuote());
     }
 

@@ -50,7 +50,7 @@ public class PlotManager
         double totalArea = 0;
         foreach (Plot p in _plots)
         {
-            totalArea =+ p.GetArea();
+            totalArea += p.GetArea();
         }            
         return totalArea;
     }

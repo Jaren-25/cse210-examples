@@ -16,5 +16,9 @@
     <Project Path="Inheritance/Appliance/Appliance.csproj" />
     <Project Path="Inheritance/Button/Button.csproj" />
     <Project Path="Inheritance/Employee/Employee.csproj" />
+    <Project Path="Inheritance/Person/Person.csproj" />
+  </Folder>
+  <Folder Name="/Polymorphism/">
+    <Project Path="Polymorphism/OrganStopPizza/OrganStopPizza.csproj" />
   </Folder>
 </Solution>
