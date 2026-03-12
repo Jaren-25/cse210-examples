@@ -150,6 +150,36 @@
             "args": [],
             "cwd": "${workspaceFolder}/Polymorphism/OrganStopPizzaImproved",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "Polymorphism: CalculatePay",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-CalculatePay",
+            "program": "${workspaceFolder}/Polymorphism/CalculatePay/bin/Debug/net10.0/CalculatePay.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Polymorphism/CalculatePay",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Polymorphism: Library",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-Library",
+            "program": "${workspaceFolder}/Polymorphism/Library/bin/Debug/net10.0/Library.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Polymorphism/Library",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Polymorphism: Phone",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-Phone",
+            "program": "${workspaceFolder}/Polymorphism/Phone/bin/Debug/net10.0/Phone.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Polymorphism/Phone",
+            "console": "integratedTerminal"
         }
     ]
 }

@@ -1,22 +1,29 @@
-﻿Book jane_eyre = new Book("Jane Eyre","Jane Austen");
+using System;
 
-jane_eyre.Display();
-jane_eyre.CheckOut();
-jane_eyre.Display();
-jane_eyre.CheckIn();
-Console.WriteLine(jane_eyre.HasAuthor("Frank"));
-jane_eyre.Display();
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        Book jane_eyre = new Book("Jane Eyre", "Jane Austen");
 
-Bookcase bookcase = new Bookcase();
-bookcase.AddBook(jane_eyre);
-Book mistborn = new Book("Mistborn","Brandon Sanderson");
-bookcase.AddBook(mistborn);
+        jane_eyre.Display();
+        jane_eyre.CheckOut();
+        jane_eyre.Display();
+        jane_eyre.CheckIn();
+        Console.WriteLine(jane_eyre.HasAuthor("Frank"));
+        jane_eyre.Display();
 
-bookcase.ShowBooks();
+        Bookcase bookcase = new Bookcase();
+        bookcase.AddBook(jane_eyre);
+        Book mistborn = new Book("Mistborn", "Brandon Sanderson");
+        bookcase.AddBook(mistborn);
 
-bookcase.FindBookByAuthor("Brandon");
+        bookcase.ShowBooks();
 
-bookcase.CountBooks();
+        bookcase.FindBookByAuthor("Brandon");
 
-bookcase.ShowPopularBooks(3);
+        bookcase.CountBooks();
 
+        bookcase.ShowPopularBooks(3);
+    }
+}
