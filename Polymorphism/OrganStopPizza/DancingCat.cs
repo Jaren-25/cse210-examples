@@ -1,15 +1,13 @@
 using System;
 
-public class DancingCat 
+public class DancingCat : Instrument
 {
     private string _outfit = "Tuxedo";
-    private string _name;
-    private bool _isOn;
 
-    public DancingCat(string name)
+    public DancingCat(string name):base(name)
     {
         _name = name;
-        _isOn = false;
+
     }
 
     public string GetOutfit()
@@ -22,20 +20,7 @@ public class DancingCat
         _outfit = outfit;
     }
 
-    public string GetName()
-    {
-        return _name;
-    }
 
-    public bool IsOn()
-    {
-        return _isOn;
-    }
-
-    public void SetIsOn(bool isOn)
-    {
-        _isOn = isOn;
-    }
 
     public void BeginDance()
     {

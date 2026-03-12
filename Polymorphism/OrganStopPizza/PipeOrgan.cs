@@ -1,12 +1,11 @@
 using System;
 
-public class PipeOrgan 
+public class PipeOrgan : Instrument
 {
     private string _note;
-    private string _name;
-    private bool _isOn;
 
-    public PipeOrgan(string name)
+
+    public PipeOrgan(string name) : base(name)
     {
         _name = name;
         _isOn = false;
@@ -20,21 +19,6 @@ public class PipeOrgan
     public void SetNote(string note)
     {
         _note = note;
-    }
-
-    public string GetName()
-    {
-        return _name;
-    }
-
-    public bool IsOn()
-    {
-        return _isOn;
-    }
-
-    public void SetIsOn(bool isOn)
-    {
-        _isOn = isOn;
     }
 
     public void OpenValve()

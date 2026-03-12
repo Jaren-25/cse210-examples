@@ -1,12 +1,11 @@
 using System;
 
-public class PercussionShelf 
+public class PercussionShelf : Instrument
 {
     private string _instrumentName;
-    private string _name;
-    private bool _isOn;
 
-    public PercussionShelf(string name)
+
+    public PercussionShelf(string name):base(name)
     {
         _name = name;
         _isOn = false;
@@ -22,20 +21,6 @@ public class PercussionShelf
         _instrumentName = instrumentName;
     }
 
-    public string GetName()
-    {
-        return _name;
-    }
-
-    public bool IsOn()
-    {
-        return _isOn;
-    }
-
-    public void SetIsOn(bool isOn)
-    {
-        _isOn = isOn;
-    }
 
     public void Strike()
     {
