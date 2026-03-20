@@ -12,6 +12,7 @@ These examples are designed for an introductory Object-Oriented Programming clas
 - **No Lambda Expressions:** Avoid the `=>` operator. Use named methods or traditional delegates if necessary.
 - **String Interpolation is Permitted:** Using `$""` and `string.Format()` is acceptable for building strings.
 - **Explicit Types:** Prioritize readability and explicit structure over brevity.
+- **Single Class Per File:** Each public class must be defined in its own file, where the filename matches the class name (e.g., `Book.cs` for `public class Book`).
 
 ## Project Structure & Configuration
 

@@ -19,7 +19,10 @@
     <Project Path="Inheritance/Person/Person.csproj" />
   </Folder>
   <Folder Name="/Polymorphism/">
+    <Project Path="Polymorphism/CalculatePay/CalculatePay.csproj" />
+    <Project Path="Polymorphism/Library/Library.csproj" />
     <Project Path="Polymorphism/OrganStopPizza/OrganStopPizza.csproj" />
     <Project Path="Polymorphism/OrganStopPizzaImproved/OrganStopPizzaImproved.csproj" />
+    <Project Path="Polymorphism/Phone/Phone.csproj" />
   </Folder>
 </Solution>

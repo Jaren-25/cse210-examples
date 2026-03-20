@@ -14,11 +14,17 @@ public class OrganStopConsole
     {
         Console.WriteLine("--- Starting the Improved Wurlitzer Show ---");
         Console.WriteLine("(Using Polymorphism - no manual type checking!)");
-        
+
         foreach (WurlitzerComponent item in _components)
         {
             // This is the win! One line calls the correct method for ANY component.
             item.Perform();
         }
+    }
+
+    public virtual void DescribeInstrument()
+    {
+        foreach (WurlitzerComponent wurlitzerComponent in _components)
+        wurlitzerComponent.ToString();
     }
 }

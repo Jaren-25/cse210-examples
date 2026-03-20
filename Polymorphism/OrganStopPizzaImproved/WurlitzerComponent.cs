@@ -27,4 +27,11 @@ public abstract class WurlitzerComponent
     }
 
     public abstract void Perform();
+
+    public abstract string GetDetails();
+
+    public string ToString()
+    {
+        return $"{_name} : {_isOn} {GetDetails()}";
+    }
 }
