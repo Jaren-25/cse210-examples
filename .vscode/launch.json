@@ -180,6 +180,46 @@
             "args": [],
             "cwd": "${workspaceFolder}/Polymorphism/Phone",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "Extras: MyFirstMauiApp",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-MyFirstMauiApp",
+            "program": "${workspaceFolder}/Extras/MyFirstMauiApp/bin/Debug/net10.0-windows10.0.19041.0/win10-x64/MyFirstMauiApp.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Extras/MyFirstMauiApp",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Extras: BankAccountManager",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-BankAccountManager",
+            "program": "${workspaceFolder}/Extras/BankAccountManager/bin/Debug/net10.0/BankAccountManager.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Extras/BankAccountManager",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Extras: AsyncDownloader",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-AsyncDownloader",
+            "program": "${workspaceFolder}/Extras/AsyncDownloader/bin/Debug/net10.0/AsyncDownloader.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Extras/AsyncDownloader",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Extras: AsyncDownloaderWithSpinner",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-AsyncDownloaderWithSpinner",
+            "program": "${workspaceFolder}/Extras/AsyncDownloaderWithSpinner/bin/Debug/net10.0/AsyncDownloaderWithSpinner.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Extras/AsyncDownloaderWithSpinner",
+            "console": "integratedTerminal"
         }
     ]
 }
